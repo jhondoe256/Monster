@@ -1,0 +1,407 @@
+body{
+    background-color: gray;
+}
+.reference{
+    width: 800px;
+    height: 800px;
+    z-index: -5;
+}
+
+.head{
+    
+    position: absolute;
+    bottom:400px;
+    left: 300px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgb(70, 40, 1);
+    border: 3px solid black;
+}
+
+.ear{
+    position: absolute;
+    bottom:120px;
+    width: 120px;
+    height: 80px;
+    right: 290px;
+    border-radius: 40%;
+    transform: rotate(40deg);
+    background-color: rgb(70, 40, 1);
+    border: 2px solid black;
+    z-index: 1;
+}
+
+
+.bridgeONose{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    background-color: rgb(100, 65, 20);
+    width:40px;
+    height: 40px;
+}
+.noseTip{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    background-color:rgb(105, 65, 13);
+    width:40px;
+    height: 50px;
+    z-index: 1;
+}
+
+.rNostril{
+    position: absolute;
+    left: 180px;
+    top: 210px;
+    background-color:rgb(49, 30, 5);
+    width:50px;
+    height: 50px;
+    border-radius: 40%;
+    z-index: 2;
+}
+
+.lNostril{
+    position: absolute;
+    left: 220px;
+    top: 210px;
+    background-color:rgb(49, 30, 5);
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.tNostrilBall{
+    position: relative;
+    left: 200px;
+    top: 118px;
+    background-color:rgb(105, 65, 13);
+    width:50px;
+    height: 50px;
+    border-radius: 40%;
+    z-index: 23;
+}
+
+.stash{
+    background-color: black;
+    top:260px;
+    border-radius: 20%;
+    position: absolute;
+    left: 170px;
+    width:120px;
+    height: 30px;
+    z-index: 4;
+}
+
+.leftStash{
+    background-color: black;
+    top:40px;
+    transform: rotate(90deg);
+    border-radius: 0%;
+    position: absolute;
+    left: 56px;
+    width:100px;
+    height: 30px;
+    z-index: 3;
+}
+
+.leftStashB{
+    background-color:darkgray;
+    top:80px;
+    border-radius: 0%;
+    position: absolute;
+    left: 91px;
+    width:30px;
+    height: 30px;
+    z-index: 4;
+}
+
+.rightStash{
+    background-color: black;
+    top:40px;
+    transform: rotate(90deg);
+    border-radius: 0%;
+    position: absolute;
+    left: -40px;
+    width:100px;
+    height: 30px;
+    z-index: 3;
+}
+
+ .rightStashB{
+  background-color:darkgray;
+    top:80px;
+    border-radius: 0%;
+    position: absolute;
+    left: -5px;
+    width:30px;
+    height: 30px;
+    z-index: 4;
+} 
+
+.rEye{
+    position: absolute;
+    left:90px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.lEye{
+    position: absolute;
+    left:255px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.wRightEye{
+    position: absolute;
+    left:185px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.wLeftEye{
+    position: absolute;
+    top: 5px;
+    left:-135px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.lBrow{
+    background-color: black;
+    width:100px;
+    height: 30px;
+    position: absolute;
+    left:70px;
+    transform: rotate(8deg);
+    top:90px;
+    border-radius: 40%;
+
+}
+
+.rBrow{
+    background-color: black;
+    width:100px;
+    height: 30px;
+    position: absolute;
+    left:250px;
+    transform: rotate(-8deg);
+    top:90px;
+    border-radius: 40%;
+    
+}
+
+.lLip{
+    background-color:black;
+    width: 70px;
+    height: 1px;
+    border-radius: 20%;
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    z-index: 7;
+}
+
+.glowingBaldSpot{
+    background-color: rgb(100, 65, 20);
+    width: 110px;
+    height: 50px;
+    border-radius: 90%;
+    position: absolute;
+    left:118px;
+    top: 10px;
+}
+
+.innerEar{
+    position: relative;
+    bottom:0px;
+    width: 90px;
+    height: 80px;
+    left:60px;
+    top:-20px;
+    border-radius: 40%;
+    transform: rotate(40deg);
+    background-color: rgb(70, 40, 1);
+    z-index: 1;
+}
+
+.dBody{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 40%;
+    z-index: -1;
+    top: 100px;
+}
+
+.lowerBody{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: -1;
+    bottom: 30px;
+    left: 70px;
+    top:5px;
+    transform: rotate(45deg);
+}
+
+.rLowerWing{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: -2;
+    bottom: 30px;
+    right: 75px;
+    top:40px;
+    transform: rotate(40deg);
+}
+
+.rWing{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    position: relative;
+    transform: rotate(25deg);
+    right:160px;
+    top:20px;
+    z-index: -2;
+}
+
+
+
+.lLowerWing{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: -2;
+    bottom: 30px;
+    right: -75px;
+    top:40px;
+    transform: rotate(40deg);
+}
+
+.lLowestWing{
+    background-color: black;
+    width: 150px;
+    height: 180px;
+    position: relative;
+    /* transform: rotate(25deg); */
+    right:0px;
+    left:80px;
+    top:-50px;
+    z-index: -2;
+}
+
+
+.suitTop{
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 45px;
+    left: 70px;
+    border-radius: 20%;
+}
+
+.bowTie{
+    background-color: red;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    transform: rotate(45deg);
+    left:60px;
+    top:40px;
+    z-index: 8;
+}
+
+.rToof{
+    width: 10px;
+    height: 20px;
+    position: relative;
+    
+    border-radius: 20%;
+    background-color: white;
+    
+}
+
+.lowerToof{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 1px;
+    top:14px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+
+.fixedPos{
+    height: 400px;
+    width:400px;
+    position: fixed;
+    background-color: orange;
+    border-radius: 80%;
+    z-index: -20;
+    top:400px;
+    left: 1500px;
+}
+
+.topOLantern{
+    width:50px;
+    height: 90px;
+    position: relative;
+    bottom: 40px;
+    left:180px;
+    background-color: green;
+}
+
+body{
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.closedLEye{
+    background-color: black;
+    width:80px;
+    height: 10px;
+    position: absolute;
+     left:5px; 
+    transform: rotate(-8deg);
+    top:30px;
+    /* border-radius: 40% 100%; */
+}
+
+
+.closedREye{
+    background-color: black;
+    width:100px;
+    height: 10px;
+    position: absolute;
+     left:80px; 
+    transform: rotate(8deg);
+    top:40px;
+    /* border-radius: 40% 100%; */
+}
+
+
+
+span{
+    color: gold;
+}
